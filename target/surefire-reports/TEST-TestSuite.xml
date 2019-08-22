@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="1.136" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\se-service.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\rt.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\resources.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\jsse.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\charsets.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\jce.jar"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="namrata.patil01"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
+    <property name="classworlds.conf" value="D:\Selenium_Assignment\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8457152035469947934.tmp"/>
+    <property name="jdk.extensions.version" value="8.0.202.1"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="com.ibm.system.agent.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190205_265 (JIT enabled, AOT enabled)
+OpenJ9   - 90dd8cb40
+OMR      - d2f4534b
+JCL      - d002501a90 based on jdk8u202-b08"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="openj9-0.12.1"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\namrata.patil01"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin;C:\windows\system32;C:\windows;C:/Program Files/AdoptOpenJDK/jdk-8.0.202.08/bin/../jre/bin/j9vm;C:/Program Files/AdoptOpenJDK/jdk-8.0.202.08/bin/../jre/bin;C:/Program Files/AdoptOpenJDK/jdk-8.0.202.08/bin/../jre/lib/amd64;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.202.08\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;D:\COMCAST\sdk-tools-windows-4333796\tools;D:\COMCAST\sdk-tools-windows-4333796\platform-tools;C:\Program Files (x86)\WebEx\Productivity Tools;D:\COMCAST\apache-maven-3.6.0\bin;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\namrata.patil01\AppData\Local\Microsoft\WindowsApps;C:\Users\namrata.patil01\AppData\Roaming\npm;D:\eclipse\eclipse-java-oxygen-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="1.8.0_202-b08
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190205_265 (JIT enabled, AOT enabled)
+OpenJ9   - 90dd8cb40
+OMR      - d2f4534b
+JCL      - d002501a90 based on jdk8u202-b08"/>
+    <property name="maven.home" value="D:\Selenium_Assignment\Flipkart_Automation\EMBEDDED"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.class.path" value="/D:/eclipse/eclipse-java-oxygen-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\namrata.patil01\AppData\Local\Temp\"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Selenium_Assignment\Flipkart_Automation"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\ext"/>
+    <property name="user.dir" value="D:\Selenium_Assignment\Flipkart_Automation"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase classname="com.flipkart.scripts.FlipkartLoginTest" name="testLoginwithValidCredentials" time="0.528"/>
+  <testcase classname="com.flipkart.scripts.FlipkartLoginTest" name="testsearchProduct" time="0.593"/>
+  <testcase classname="com.flipkart.scripts.SearchProductTest" name="testsearchProduct" time="0.015">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:115)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:102)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
+	at com.flipkart.pages.SearchPage.waitForElement(SearchPage.java:106)
+	at com.flipkart.pages.SearchPage.searchProduct(SearchPage.java:39)
+	at com.flipkart.scripts.SearchProductTest.testsearchProduct(SearchProductTest.java:18)
+</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,3 @@
+[0821/202842.474:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0822/072435.963:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0822/073156.124:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

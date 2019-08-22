@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flipkart Suite" duration-ms="65646" started-at="2019-08-22T10:46:26Z" finished-at="2019-08-22T10:47:32Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="65646" started-at="2019-08-22T10:46:26Z" finished-at="2019-08-22T10:47:32Z">
+      <class name="com.flipkart.scripts.FlipkartLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@e3bef84b]" name="setUp" is-config="true" duration-ms="8563" started-at="2019-08-22T16:16:26Z" finished-at="2019-08-22T16:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginwithValidCredentials()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@e3bef84b]" name="testLoginwithValidCredentials" duration-ms="4521" started-at="2019-08-22T16:16:35Z" finished-at="2019-08-22T16:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginwithValidCredentials -->
+        <test-method status="PASS" signature="testsearchProduct()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@e3bef84b]" name="testsearchProduct" duration-ms="52261" started-at="2019-08-22T16:16:40Z" finished-at="2019-08-22T16:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsearchProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@e3bef84b]" name="closeBrowser" is-config="true" duration-ms="282" started-at="2019-08-22T16:17:32Z" finished-at="2019-08-22T16:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.flipkart.scripts.FlipkartLoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Flipkart Suite -->
+</testng-results>
