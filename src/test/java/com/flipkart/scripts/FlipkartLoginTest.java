@@ -33,11 +33,11 @@ public class FlipkartLoginTest extends BaseTest {
 
 	@Test
 	public void testsearchProduct() throws Exception {
-		log.info(" ####### Started the Search Product and Add to Cart Test ####### ");
+		log.info(" ####### Starting Product search and adding it to the cart ####### ");
 		sPage = new SearchPage(driver);
 		sPage.searchProduct("camera");
 		sPage.fetchProductName();
-		log.info(" ####### Finished the Search Product and Add to Cart Test ####### ");
+		log.info(" #######  Product search completed and Added to Cart ####### ");
 	}
 
 	@AfterClass
