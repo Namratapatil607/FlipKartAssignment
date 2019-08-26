@@ -9,17 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">12,163</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">167,545</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.flipkart.scripts.SearchProductTest</td><td><a href="#m0">testsearchProduct</a></td><td rowspan="1">1566453982157</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.flipkart.scripts.FlipkartLoginTest</td><td><a href="#m1">testLoginwithValidCredentials</a></td><td rowspan="1">1566453978878</td><td rowspan="1">526</td></tr><tr class="passedeven"><td><a href="#m2">testsearchProduct</a></td><td rowspan="1">1566453979406</td><td rowspan="1">596</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.flipkart.scripts.SearchProductTest</td><td><a href="#m0">testsearchProduct</a></td><td rowspan="1">1566784553881</td><td rowspan="1">8000</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.flipkart.scripts.FlipkartLoginTest</td><td><a href="#m1">testLoginwithValidCredentials</a></td><td rowspan="1">1566784469988</td><td rowspan="1">11750</td></tr><tr class="passedeven"><td><a href="#m2">testsearchProduct</a></td><td rowspan="1">1566784481770</td><td rowspan="1">61700</td></tr></tbody>
 </table>
 <h2>Command line test</h2><h3 id="m0">com.flipkart.scripts.SearchProductTest#testsearchProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:115)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:102)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
-	at com.flipkart.pages.SearchPage.waitForElement(SearchPage.java:106)
-	at com.flipkart.pages.SearchPage.searchProduct(SearchPage.java:39)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at com.flipkart.pages.SearchPage.searchProduct(SearchPage.java:41)
 	at com.flipkart.scripts.SearchProductTest.testsearchProduct(SearchProductTest.java:18)
 ... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.flipkart.scripts.FlipkartLoginTest#testLoginwithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

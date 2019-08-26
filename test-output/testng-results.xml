@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Flipkart Suite" duration-ms="75645" started-at="2019-08-22T11:34:25Z" finished-at="2019-08-22T11:35:41Z">
+  <suite name="Flipkart Suite" duration-ms="88244" started-at="2019-08-26T01:56:31Z" finished-at="2019-08-26T01:57:59Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="75645" started-at="2019-08-22T11:34:25Z" finished-at="2019-08-22T11:35:41Z">
+    <test name="Login Test" duration-ms="88244" started-at="2019-08-26T01:56:31Z" finished-at="2019-08-26T01:57:59Z">
       <class name="com.flipkart.scripts.FlipkartLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@60d836ee]" name="setUp" is-config="true" duration-ms="13433" started-at="2019-08-22T17:04:25Z" finished-at="2019-08-22T17:04:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@825adcad]" name="setUp" is-config="true" duration-ms="20743" started-at="2019-08-26T07:26:31Z" finished-at="2019-08-26T07:26:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLoginwithValidCredentials()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@60d836ee]" name="testLoginwithValidCredentials" duration-ms="5556" started-at="2019-08-22T17:04:39Z" finished-at="2019-08-22T17:04:44Z">
+        <test-method status="PASS" signature="testLoginwithValidCredentials()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@825adcad]" name="testLoginwithValidCredentials" duration-ms="5116" started-at="2019-08-26T07:26:52Z" finished-at="2019-08-26T07:26:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginwithValidCredentials -->
-        <test-method status="PASS" signature="testsearchProduct()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@60d836ee]" name="testsearchProduct" duration-ms="53563" started-at="2019-08-22T17:04:44Z" finished-at="2019-08-22T17:05:38Z">
+        <test-method status="PASS" signature="testsearchProduct()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@825adcad]" name="testsearchProduct" duration-ms="61984" started-at="2019-08-26T07:26:57Z" finished-at="2019-08-26T07:27:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsearchProduct -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@60d836ee]" name="closeBrowser" is-config="true" duration-ms="3057" started-at="2019-08-22T17:05:38Z" finished-at="2019-08-22T17:05:41Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.flipkart.scripts.FlipkartLoginTest@825adcad]" name="closeBrowser" is-config="true" duration-ms="177" started-at="2019-08-26T07:27:59Z" finished-at="2019-08-26T07:27:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

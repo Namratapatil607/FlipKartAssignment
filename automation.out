@@ -458,3 +458,60 @@
 2019-08-22 17:05:37 INFO  SearchPage:89 -  Clicking on the Add to Cart button 
 2019-08-22 17:05:38 INFO  SearchPage:102 -  ####### Product Price and Cart Price are same ####### 
 2019-08-22 17:05:38 INFO  FlipkartLoginTest:40 -  ####### Finished the Search Product and Add to Cart Test ####### 
+2019-08-22 18:41:58 INFO  BaseTest:44 - Creating the object of--->>>firefox
+2019-08-22 18:42:56 INFO  BaseTest:60 - Navigating to--->> https://www.flipkart.com
+2019-08-22 18:42:56 INFO  FlipkartLoginTest:26 -  ####### Started the Login Test ####### 
+2019-08-22 18:42:56 INFO  LoginPage:33 -  Entering the phone number or username: 7019375360
+2019-08-22 18:42:57 INFO  LoginPage:35 -  Entering the password: Abc123
+2019-08-22 18:43:01 INFO  LoginPage:38 -  Clicking on the Login button 
+2019-08-22 18:43:01 INFO  FlipkartLoginTest:30 -  ####### Finished the Login Test ####### 
+2019-08-22 18:43:01 INFO  FlipkartLoginTest:36 -  ####### Starting Product search and adding it to the cart ####### 
+2019-08-22 18:43:10 INFO  SearchPage:42 -  Entering the Product Name: camera
+2019-08-22 18:43:30 INFO  SearchPage:47 -  Clicking on the Search button 
+2019-08-22 18:43:30 INFO  SearchPage:71 - Clicking on the Product Name: Sony CyberShot DSC-W810/BC IN5
+2019-08-22 18:50:05 INFO  BaseTest:44 - Creating the object of--->>>firefox
+2019-08-22 18:50:23 INFO  BaseTest:60 - Navigating to--->> https://www.flipkart.com
+2019-08-22 18:50:23 INFO  FlipkartLoginTest:26 -  ####### Started the Login Test ####### 
+2019-08-22 18:50:24 INFO  LoginPage:33 -  Entering the phone number or username: 7019375360
+2019-08-22 18:50:24 INFO  LoginPage:35 -  Entering the password: Abc123
+2019-08-22 18:50:28 INFO  LoginPage:38 -  Clicking on the Login button 
+2019-08-22 18:50:28 INFO  FlipkartLoginTest:30 -  ####### Finished the Login Test ####### 
+2019-08-22 18:50:28 INFO  FlipkartLoginTest:36 -  ####### Starting Product search and adding it to the cart ####### 
+2019-08-22 18:50:37 INFO  SearchPage:42 -  Entering the Product Name: camera
+2019-08-22 18:50:57 INFO  SearchPage:47 -  Clicking on the Search button 
+2019-08-22 18:51:07 INFO  SearchPage:72 - Clicking on the Product Name: Sony CyberShot DSC-W810/BC IN5
+2019-08-22 18:51:08 INFO  SearchPage:85 - Product Price is : ?6,299
+2019-08-22 18:51:29 INFO  SearchPage:90 -  Clicking on the Add to Cart button 
+2019-08-22 18:51:29 INFO  SearchPage:103 -  ####### Product Price and Cart Price are same ####### 
+2019-08-22 18:51:29 INFO  FlipkartLoginTest:40 -  #######  Product search completed and Added to Cart ####### 
+2019-08-26 07:12:58 INFO  BaseTest:44 - Creating the object of--->>>firefox
+2019-08-26 07:23:14 INFO  BaseTest:44 - Creating the object of--->>>firefox
+2019-08-26 07:24:29 INFO  BaseTest:60 - Navigating to--->> https://www.flipkart.com
+2019-08-26 07:24:29 INFO  FlipkartLoginTest:26 -  ####### Started the Login Test ####### 
+2019-08-26 07:24:32 INFO  LoginPage:33 -  Entering the phone number or username: 9535872810
+2019-08-26 07:24:33 INFO  LoginPage:35 -  Entering the password: Abc123
+2019-08-26 07:24:41 INFO  LoginPage:38 -  Clicking on the Login button 
+2019-08-26 07:24:41 INFO  FlipkartLoginTest:30 -  ####### Finished the Login Test ####### 
+2019-08-26 07:24:41 INFO  FlipkartLoginTest:36 -  ####### Starting Product search and adding it to the cart ####### 
+2019-08-26 07:24:51 INFO  SearchPage:42 -  Entering the Product Name: camera
+2019-08-26 07:25:11 INFO  SearchPage:47 -  Clicking on the Search button 
+2019-08-26 07:25:22 INFO  SearchPage:72 - Clicking on the Product Name: Sony CyberShot DSC-W810/BC IN5
+2019-08-26 07:25:22 INFO  SearchPage:85 - Product Price is : ?6,299
+2019-08-26 07:25:43 INFO  SearchPage:90 -  Clicking on the Add to Cart button 
+2019-08-26 07:25:43 INFO  SearchPage:103 -  ####### Product Price and Cart Price are same ####### 
+2019-08-26 07:25:43 INFO  FlipkartLoginTest:40 -  #######  Product search completed and Added to Cart ####### 
+2019-08-26 07:26:31 INFO  BaseTest:50 - Creating the object of--->>>chrome
+2019-08-26 07:26:51 INFO  BaseTest:60 - Navigating to--->> https://www.flipkart.com
+2019-08-26 07:26:52 INFO  FlipkartLoginTest:26 -  ####### Started the Login Test ####### 
+2019-08-26 07:26:52 INFO  LoginPage:33 -  Entering the phone number or username: 9535872810
+2019-08-26 07:26:53 INFO  LoginPage:35 -  Entering the password: Abc123
+2019-08-26 07:26:57 INFO  LoginPage:38 -  Clicking on the Login button 
+2019-08-26 07:26:57 INFO  FlipkartLoginTest:30 -  ####### Finished the Login Test ####### 
+2019-08-26 07:26:57 INFO  FlipkartLoginTest:36 -  ####### Starting Product search and adding it to the cart ####### 
+2019-08-26 07:27:06 INFO  SearchPage:42 -  Entering the Product Name: camera
+2019-08-26 07:27:26 INFO  SearchPage:47 -  Clicking on the Search button 
+2019-08-26 07:27:37 INFO  SearchPage:72 - Clicking on the Product Name: Sony CyberShot DSC-W810/BC IN5
+2019-08-26 07:27:38 INFO  SearchPage:85 - Product Price is : ?6,299
+2019-08-26 07:27:58 INFO  SearchPage:90 -  Clicking on the Add to Cart button 
+2019-08-26 07:27:59 INFO  SearchPage:103 -  ####### Product Price and Cart Price are same ####### 
+2019-08-26 07:27:59 INFO  FlipkartLoginTest:40 -  #######  Product search completed and Added to Cart ####### 

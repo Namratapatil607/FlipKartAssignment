@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="TestSuite" time="1.136" errors="0" skipped="0">
+<testsuite tests="3" failures="1" name="TestSuite" time="81.47" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Eclipse OpenJ9"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -17,7 +17,7 @@
     <property name="user.language" value="en"/>
     <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
-    <property name="classworlds.conf" value="D:\Selenium_Assignment\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8457152035469947934.tmp"/>
+    <property name="classworlds.conf" value="D:\Selenium_Assignment\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5121557643531912014.tmp"/>
     <property name="jdk.extensions.version" value="8.0.202.1"/>
     <property name="java.version" value="1.8.0_202"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
@@ -61,7 +61,7 @@ OMR      - d2f4534b
 JCL      - d002501a90 based on jdk8u202-b08"/>
     <property name="maven.home" value="D:\Selenium_Assignment\Flipkart_Automation\EMBEDDED"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.class.path" value="/D:/eclipse/eclipse-java-oxygen-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -83,17 +83,32 @@ JCL      - d002501a90 based on jdk8u202-b08"/>
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.specification.version" value="1.8"/>
   </properties>
-  <testcase classname="com.flipkart.scripts.FlipkartLoginTest" name="testLoginwithValidCredentials" time="0.528"/>
-  <testcase classname="com.flipkart.scripts.FlipkartLoginTest" name="testsearchProduct" time="0.593"/>
-  <testcase classname="com.flipkart.scripts.SearchProductTest" name="testsearchProduct" time="0.015">
+  <testcase classname="com.flipkart.scripts.FlipkartLoginTest" name="testLoginwithValidCredentials" time="11.758"/>
+  <testcase classname="com.flipkart.scripts.FlipkartLoginTest" name="testsearchProduct" time="61.7"/>
+  <testcase classname="com.flipkart.scripts.SearchProductTest" name="testsearchProduct" time="8.012">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:115)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:102)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
-	at com.flipkart.pages.SearchPage.waitForElement(SearchPage.java:106)
-	at com.flipkart.pages.SearchPage.searchProduct(SearchPage.java:39)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at com.flipkart.pages.SearchPage.searchProduct(SearchPage.java:41)
 	at com.flipkart.scripts.SearchProductTest.testsearchProduct(SearchProductTest.java:18)
 </failure>
+    <system-err>1566784543492	Marionette	INFO	Stopped listening on port 50750
+[Parent 29200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 29200, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 29200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/[Parent 29200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 14396, Chrome_ChildThread] WARNING: 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+</system-err>
   </testcase>
 </testsuite>

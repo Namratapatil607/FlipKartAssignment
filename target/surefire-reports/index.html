@@ -148,12 +148,10 @@
                   </a> <!-- testsearchProduct -->
                   <span class="method-name">testsearchProduct</span>
                   <div class="stack-trace">java.lang.NullPointerException
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:115)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:102)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
-	at com.flipkart.pages.SearchPage.waitForElement(SearchPage.java:106)
-	at com.flipkart.pages.SearchPage.searchProduct(SearchPage.java:39)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at com.flipkart.pages.SearchPage.searchProduct(SearchPage.java:41)
 	at com.flipkart.scripts.SearchProductTest.testsearchProduct(SearchProductTest.java:18)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
@@ -240,20 +238,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testsearchProduct')
 data.setCell(0, 2, 'com.flipkart.scripts.FlipkartLoginTest')
-data.setCell(0, 3, 596);
+data.setCell(0, 3, 61700);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLoginwithValidCredentials')
 data.setCell(1, 2, 'com.flipkart.scripts.FlipkartLoginTest')
-data.setCell(1, 3, 526);
+data.setCell(1, 3, 11750);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testsearchProduct')
 data.setCell(2, 2, 'com.flipkart.scripts.SearchProductTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 8000);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -286,15 +284,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLoginwithValidCredentials</span>
-                <span class="method-start">8862 ms</span>
+                <span class="method-start">75556 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testsearchProduct</span>
-                <span class="method-start">9390 ms</span>
+                <span class="method-start">87338 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">9986 ms</span>
+                <span class="method-start">149038 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -303,7 +301,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testsearchProduct</span>
-                <span class="method-start">12141 ms</span>
+                <span class="method-start">159449 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

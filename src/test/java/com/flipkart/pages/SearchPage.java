@@ -67,7 +67,8 @@ public class SearchPage extends BaseTest {
 
 			if (prodName.getText().equalsIgnoreCase("Sony CyberShot DSC-W810/BC IN5")) {
 				// Click on Product
-				prodName.click();				
+				prodName.click();
+				Thread.sleep(10000);
 				log.info("Clicking on the Product Name: " + prodName.getText().toString());
 
 				// Switch to new Tab

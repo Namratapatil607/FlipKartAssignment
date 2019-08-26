@@ -25,7 +25,7 @@ public class FlipkartLoginTest extends BaseTest {
 	public void testLoginwithValidCredentials() throws Exception {
 		log.info(" ####### Started the Login Test ####### ");
 		lPage = new LoginPage(driver);
-		lPage.loginToApplication("7019375360", "Abc123");
+		lPage.loginToApplication("9535872810", "Abc123");
 		// Assert.assertEquals(lPage.inValidLoginText(), "Authentication Passed");
 		log.info(" ####### Finished the Login Test ####### ");
 
